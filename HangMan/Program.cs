@@ -15,7 +15,8 @@ namespace HangMan
 
 			do{
 				// Solution for hangman picked from a txt file
-				string solution = TextyThings.ReturnAWordFromTXT("C:\\Users\\SchneidewindJulia\\VSCode\\HangMan\\hangmanwords.txt");
+				// But first You'll have to enter the path for hangmanwords.txt or another txt-file of your choice
+				string solution = TextyThings.ReturnAWordFromTXT("ENTER PATH FOR hangmanwords.txt");
 				solution = solution.ToLower();
 
 				// To show solution before starting the game (for presentation purpose) = copy of solution; solution remains unchanged
